@@ -23,7 +23,7 @@ class Auto:
         cantAsientos=0
         for asiento in self.asientos:
             if asiento:
-                cantAsietos += 1
+                cantAsientos += 1
         return(cantAsientos)
 
     def verificarIntegridad(self):
