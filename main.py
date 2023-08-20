@@ -51,3 +51,5 @@ class Motor:
             self.tipo==tipo
         elif (tipo=='gasolina'):
             self.tipo=tipo
+        elif not(tipo=='hibrido'):
+            self.tipo=tipo
