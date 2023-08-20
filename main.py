@@ -19,10 +19,10 @@ class Auto:
         self.registro=registro
         #cantidadCreados=cantidadCreados
 
-    def cantidadAsientos(self, asientos):
+    def cantidadAsientos(self):
         cantAsientos=0
-        for i in range(0,asientos.len):
-            if (asientos[i] != None):
+        for asiento in self.asientos:
+            if asientos:
                 cantAsietos += 1
         return(cantAsientos)
 
